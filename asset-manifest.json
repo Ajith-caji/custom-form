@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/custom-form/static/css/main.52ec8125.css",
+    "main.js": "/custom-form/static/js/main.b71f25c1.js",
+    "static/js/453.bc5d36d8.chunk.js": "/custom-form/static/js/453.bc5d36d8.chunk.js",
+    "static/media/vecteezy_like-feedback-icon_.jpg": "/custom-form/static/media/vecteezy_like-feedback-icon_.3fad20b9696c7ca99076.jpg",
+    "index.html": "/custom-form/index.html",
+    "main.52ec8125.css.map": "/custom-form/static/css/main.52ec8125.css.map",
+    "main.b71f25c1.js.map": "/custom-form/static/js/main.b71f25c1.js.map",
+    "453.bc5d36d8.chunk.js.map": "/custom-form/static/js/453.bc5d36d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52ec8125.css",
+    "static/js/main.b71f25c1.js"
+  ]
+}
