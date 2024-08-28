@@ -5,8 +5,14 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
-
+import { useNavigate } from 'react-router-dom';
 export default function AlertDialog({open, handleClose }) {
+  const navigate = useNavigate();
+
+  const handleCreate = () => {
+    handleClose(); 
+    navigate('/main'); 
+  };
  
   return (
     <React.Fragment>
@@ -29,7 +35,7 @@ export default function AlertDialog({open, handleClose }) {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Create</Button>
+          <Button onClick={handleCreate}>Create</Button>
           <Button onClick={handleClose} autoFocus>
             Cancel
           </Button>

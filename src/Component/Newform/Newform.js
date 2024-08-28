@@ -6,8 +6,10 @@ import AlertDialog from "../Modal/Modal";
 function Newform() {
   const [open, setOpen] = useState(false);
 
+  
+
   const handleClickOpen = () => {
-    setOpen(true);
+    setOpen(true); 
   };
 
   const handleClose = () => {
